@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AloneX import app
+from GayuMusic import app
 import requests
 
 def upload_file(file_path):

@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", "") # youtube song api key, get it from https://t.me/AloneHuVai
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots7ed2dc') # youtube song api key, get it from https://t.me/AloneHuVai
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -40,9 +40,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamAloneOp/AloneApiMusicBot",
+    "https://github.com/TG-Badshah/GayuMusic",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private

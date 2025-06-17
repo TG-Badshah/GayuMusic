@@ -18,14 +18,7 @@ def start_panel(_):
 
 def private_panel(_):
     buttons = [
-        [
-            InlineKeyboardButton(
-                        text="˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url=config.SUPPORT_CHAT
-                    ),
-            InlineKeyboardButton(
-                        text="˹ 𝐔ᴘᴅᴀᴛᴇs ˼", url=config.SUPPORT_CHANNEL
-                    ),
-        ],
+        
         [
             InlineKeyboardButton(
                 text=_["S_B_3"],
@@ -38,6 +31,13 @@ def private_panel(_):
                     ),
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
-      
+      [
+            InlineKeyboardButton(
+                        text="˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url=config.SUPPORT_CHAT
+                    ),
+            InlineKeyboardButton(
+                        text="˹ 𝐔ᴘᴅᴀᴛᴇs ˼", url=config.SUPPORT_CHANNEL
+                    ),
+        ],
     ]
     return buttons

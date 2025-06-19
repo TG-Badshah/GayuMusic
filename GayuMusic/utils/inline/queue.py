@@ -70,6 +70,7 @@ def aq_markup(_, chat_id):
             #InlineKeyboardButton(text="❚❚", callback_data=f"ADMIN Pause|{chat_id}"),
             #InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="𝐂ʟᴏsᴇ", callback_data="close"),
             #InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
@@ -78,6 +79,6 @@ def aq_markup(_, chat_id):
                 text="💗𝄀𝄄𝄀꯭꯭𝙰𝙽𝙰𝙽𝙳𝄄𝄀꯭♥️", user_id=config.OWNER_ID,
             ),
         ],
-        [InlineKeyboardButton(text="𝐂ʟᴏsᴇ", callback_data="close")],
+        
     ]
     return buttons

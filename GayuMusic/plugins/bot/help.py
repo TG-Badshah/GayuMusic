@@ -63,7 +63,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         language = await get_lang(update.chat.id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_video(video="https://files.catbox.moe/0n7rlf.mp4", caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
+        await update.reply_video(video="https://files.catbox.moe/gl5rg8.jpg", caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
     
 
 
@@ -81,7 +81,9 @@ async def helper_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
     keyboard = help_back_markup(_)
- if cb == "hb1":
+    if cb == "ab1":
+        await CallbackQuery.edit_message_text(helpers.REPO, reply_markup=keyboard)
+    elif cb == "hb1":
         await CallbackQuery.edit_message_text(helpers.HELP_1, reply_markup=keyboard)
     elif cb == "hb2":
         await CallbackQuery.edit_message_text(helpers.HELP_2, reply_markup=keyboard)

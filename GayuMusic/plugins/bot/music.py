@@ -10,12 +10,12 @@ start_txt = """
 **
 ┌┬─────────────────⦿
 │├─────────────────╮
-│├ ᴛɢ ɴᴀᴍᴇ - [LEGEND](https://t.me/KINGxANAND)
-│├ ғᴜʟʟ ɪɴғᴏ - [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/New_sanatani)
+│├ Sorry sir, Repo is private🥲
+│├ All codes is Adwanced😊
 │├─────────────────╯
 ├┼─────────────────⦿
 │├─────────────────╮
-│├OWNER│ [LEGEND](https://t.me/The_Real_Anand)
+│├OWNER│ [LEGEND](https://t.me/KINGxANAND)
 │├─────────────────╯
 └┴─────────────────⦿
 **

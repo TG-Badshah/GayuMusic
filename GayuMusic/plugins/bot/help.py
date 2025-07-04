@@ -37,7 +37,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         _ = get_string(language)
         keyboard = help_pannel(_)
         await update.reply_video(
-            video="https://files.catbox.moe/0n7rlf.mp4",
+            video="https://files.catbox.moe/gl5rg8.jpg",
             caption=_["help_1"].format(SUPPORT_CHAT),
             reply_markup=keyboard,
         )

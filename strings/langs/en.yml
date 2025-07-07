@@ -174,7 +174,7 @@ queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀᴛ
 queue_7 : "\nᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n🔗 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🥀 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<b><blockquote>〘 𝚂𝙴𝙹𝙰𝙻 〙</blockquote></b>\n\n<blockquote><b>︵‿︵‿︵‿︵‿︵‿︵‿︵\n⚘ 𝗧𝗶𝘁𝗹𝗲 ⪼</b> <a href={0}>{1}</a> \n<b>⚘ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 ⪼</b> {2} ϻɪηυᴛєs \n<b>⚘ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 ⪼</b> {3}\n︵‿︵‿︵‿︵‿︵‿︵‿︵<b></blockquote>"
+stream_1 : "<b><blockquote>『SurTaalBot』</blockquote></b>\n\n<blockquote><b>︵‿︵‿︵‿︵‿︵‿︵‿︵\n⚘ 𝗧𝗶𝘁𝗹𝗲 ⪼</b> <a href={0}>{1}</a> \n<b>⚘ 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 ⪼</b> {2} ϻɪηυᴛєs \n<b>⚘ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 ⪼</b> {3}\n︵‿︵‿︵‿︵‿︵‿︵‿︵<b></blockquote>"
 stream_2 : "<b><blockquote>➥ 𝐏ʟʏɪиɢ 𝐎η 𝐒ᴛʀєᴧϻɪηɢ  ⏤͟͞●</blockquote></b>\n\n<b><blockquote>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}</blockquote>"
 CLOSE_BUTTON  : "ᴄʟᴏsᴇ"
 BACK_BUTTON : "ʙᴀᴄᴋ"

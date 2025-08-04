@@ -16,7 +16,8 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", 'NxGBNexGenBots1ee9b8') # youtube song api ke
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY",'30DxNexGenBots91ce9d') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 

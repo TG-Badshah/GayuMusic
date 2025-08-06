@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "29695886"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "14ca35d1ae7a732d32f2f28c83ed54db")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", None)
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
@@ -25,13 +25,13 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 OWNER_ID = int(getenv("OWNER_ID", "7291963092"))
 
 OWNER_USERNAME = getenv("OWNER_USERNAME","KINGxANAND")
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "GayuMusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "TermuxMusicBot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
